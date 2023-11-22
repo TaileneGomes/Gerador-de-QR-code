@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <form method="POST" class="formLogin">
+        <h1>Gerador de QR Code</h1>
+        <p>cole uma url ou digite um texto para criar o QR Code</p>
+        <label for="url">QR Code</label>
+        <input type="text" required placeholder="Digite aqui">
+        <button type="submit">QR Code gerado</button>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" alt="" />
+      </form>
+    </div>
+
+    
+  </body>
+</html>
